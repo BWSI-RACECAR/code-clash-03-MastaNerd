@@ -1,7 +1,5 @@
 class Solution:    
     def propcontrol(self, center, res):
-            if center < res[0]:
-                 return 0
             oneValue = (res[0])/2
             turn = (cen - oneValue)/oneValue
             return turn
