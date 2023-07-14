@@ -1,7 +1,7 @@
 class Solution:    
     def propcontrol(self, center, res):
             oneValue = (res[0])/2
-            turn = (cen - oneValue)/oneValue
+            turn = (center - oneValue)/oneValue
             return turn
             
             #TODO: Write code below to return a float with the solution to the prompt.
